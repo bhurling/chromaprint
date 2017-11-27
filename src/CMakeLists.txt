@@ -28,7 +28,7 @@ set(chromaprint_SOURCES
 	avresample/resample2.c
 )
 
-set(chromaprint_PUBLIC_SOURCES chromaprint.cpp)
+set(chromaprint_PUBLIC_SOURCES chromaprint.cpp chromaprint-jni.c)
 set(chromaprint_PUBLIC_HEADERS chromaprint.h)
 
 if(USE_AVFFT)
